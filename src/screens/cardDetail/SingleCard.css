@@ -1,0 +1,125 @@
+
+  .single-card {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+  }
+
+.single-card-container {
+    display: flex;
+    background-color: #666;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    width: 90%;
+    min-width: 135px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  } 
+  .single-card-head {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    gap: 10px;
+    align-items: start;
+  }
+  .single-item-gender {
+    font-size: 30px;
+    color: #fff;
+  }
+  .single-gender {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(163, 231, 233);
+  }
+  .single-list-name {
+    font-size: xxx-large;
+    font-weight: 900;
+    color: #fff;
+  }
+  .single-list-name:hover {
+    color: orangered;
+    transition: ease-in-out all .3s;
+  }
+  .single-item-species {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(163, 231, 233);
+  }
+  .single-item-status{
+    font-size: 30px;
+    color: rgb(163, 231, 233);
+    font-weight: 700;
+  }
+  .single-image:hover {
+    transition: ease-in-out all .5s;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  .single-item-origin-head {
+    font-size: 30px;
+    color: rgb(163, 231, 233);
+  }
+  .single-item-location-head {
+    font-size: 30px;
+    color: rgb(163, 231, 233);
+  }
+  .item-origin {
+    font-weight: 600;
+    color: rgb(163, 231, 233);
+  }
+  .item-origin-name:hover{
+    color: orangered;
+  }
+  .item-origin-location:hover{
+    color: orangered;
+  }
+  .item-location {
+    font-weight: 600;
+    color: rgb(163, 231, 233);
+  }
+  .item-origin-name{
+    font-weight: 600;
+    color:#fff;
+  }
+  .item-origin-location{
+    font-weight: 600;
+    color:#fff;
+  }
+  .forward-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 4px;
+    right: 3rem;
+    width: 45px;
+    height: 45px;
+    cursor: grab;
+    background: rgb(108 117 141);
+  }
+  .forward-button:hover{
+    background: rgb(221,169,192);
+    background: radial-gradient(circle, rgba(221,169,192,1) 0%, rgba(166,187,212,1) 100%);
+    transition: all ease-in-out .3s;
+  }
+  .backward-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -23px;
+    right: 23px;
+    width: 45px;
+    height: 45px;
+    cursor: grab;
+    background: rgb(108 117 141);
+  }
+  .backward-button:hover{
+    background: rgb(221,169,192);
+    background: radial-gradient(circle, rgba(221,169,192,1) 0%, rgba(166,187,212,1) 100%);
+    transition: all ease-in-out .3s;
+  }

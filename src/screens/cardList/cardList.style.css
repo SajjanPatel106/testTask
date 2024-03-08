@@ -1,0 +1,52 @@
+.card-list {
+    width: 100%;
+    gap: 10px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #666;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    width: 15%;
+    min-width: 135px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s  ease-out;
+  } 
+ 
+  .list-name {
+    font-size: larger;
+    font-weight: 900;
+    color: #fff;
+  }
+  .item-species {
+    font-size: 14px;
+    color: rgb(163, 231, 233);
+    font-weight: 700;
+  }
+  .item-gender {
+    font-size: 14px;
+    color: rgb(163, 231, 233);
+    font-weight: 700;
+  }
+  .item-status{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+    border: #fff solid 2px;
+  }
